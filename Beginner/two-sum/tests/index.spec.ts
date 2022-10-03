@@ -8,16 +8,16 @@ beforeEach(() => {
 
 describe('Two Sum Algorithm Leetcode', () => {
   test('return array of indice of one number', () => {
-    const indiceOfNumbers: number[] = twoSum.getIndice([2, 8, 5, 6]);
-    expect(indiceOfNumbers).toEqual(expect.arrayContaining([1]));
+    expect(twoSum.getIndice([2, 8, 5, 6])).toEqual(expect.arrayContaining([1]));
   });
 
   test('return array of indice of two numbers', () => {
-    const indiceOfNumbers: number[] = twoSum.getIndice([2, 8, 5, 6]);
-    expect(indiceOfNumbers).toEqual([1, 3]);
-  })
+    expect(twoSum.getIndice([2, 8, 5, 6])).toEqual([1, 3]);
+  });
 
-
+  test('return array of indice of two numbers which sum equals target', () => {
+    expect(twoSum.getSum([2, 8, 5, 6], 10)).toEqual([1, 2]);
+  });
 });
 
 
