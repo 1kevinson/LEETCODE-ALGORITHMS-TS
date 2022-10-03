@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1664771632389" clover="3.2.0">
-  <project timestamp="1664771632389" name="All files">
-    <metrics statements="6" coveredstatements="6" conditionals="3" coveredconditionals="3" methods="1" coveredmethods="1" elements="10" coveredelements="10" complexity="0" loc="6" ncloc="6" packages="1" files="1" classes="1"/>
+<coverage generated="1664779148944" clover="3.2.0">
+  <project timestamp="1664779148944" name="All files">
+    <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1" elements="5" coveredelements="5" complexity="0" loc="4" ncloc="4" packages="1" files="1" classes="1"/>
     <file name="index.ts" path="/Users/1kevinson/Library/Mobile Documents/com~apple~CloudDocs/Files/01 - Coding/01 - Phronesis/02 - Typescript/Vanilla/TDD-Leet code/Beginner/two-sum/src/index.ts">
-      <metrics statements="6" coveredstatements="6" conditionals="3" coveredconditionals="3" methods="1" coveredmethods="1"/>
-      <line num="1" count="1" type="stmt"/>
-      <line num="2" count="1" type="stmt"/>
-      <line num="5" count="3" type="cond" truecount="3" falsecount="0"/>
-      <line num="7" count="1" type="stmt"/>
-      <line num="9" count="1" type="stmt"/>
-      <line num="11" count="1" type="stmt"/>
+      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <line num="4" count="2" type="stmt"/>
+      <line num="6" count="2" type="stmt"/>
+      <line num="7" count="2" type="stmt"/>
+      <line num="9" count="2" type="stmt"/>
     </file>
   </project>
 </coverage>

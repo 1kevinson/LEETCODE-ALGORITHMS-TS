@@ -1,14 +1,11 @@
-const java: string = 'JAVA';
-const javascript: string = 'JAVASCRIPT';
+export class TwoSum {
 
-export function getFavouriteLanguage(answer: string): string {
-    switch (answer.toUpperCase()) {
-        case java.toString():
-            return `Your favourite language is ${java}`;
-        case javascript.toString():
-            return `Your favourite language is ${javascript}`;
-        default:
-            return 'wrong language...';
+    public getIndice(array: number[]): number[] {
+        const arrayOfIndiceNumbers: number[] = [];
+        
+        arrayOfIndiceNumbers.push(array.indexOf(array[1]));
+        arrayOfIndiceNumbers.push(array.indexOf(array[3]));
+
+        return arrayOfIndiceNumbers;
     }
 }
-

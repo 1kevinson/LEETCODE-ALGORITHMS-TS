@@ -1,20 +1,34 @@
-import { getFavouriteLanguage as getLanguage } from '../src/index';
+import { TwoSum } from "../src/index";
 
-describe('TEST JEST TYPESCRIPT', () => {
-  test('should returns JAVA for answer = java', () => {
-    expect(getLanguage('java'))
-      .toBe('Your favourite language is JAVA');
+let twoSum: TwoSum;
+
+beforeEach(() => {
+  twoSum = new TwoSum();
+})
+
+describe('Two Sum Algorithm Leetcode', () => {
+  test('return array of indice of one number', () => {
+    const indiceOfNumbers: number[] = twoSum.getIndice([2, 8, 5, 6]);
+    expect(indiceOfNumbers).toEqual(expect.arrayContaining([1]));
   });
 
-  test('should returns JAVASCRIPT for answer = javascript', () => {
-    expect(getLanguage('javascript'))
-      .toBe('Your favourite language is JAVASCRIPT');
-  });
+  test('return array of indice of two numbers', () => {
+    const indiceOfNumbers: number[] = twoSum.getIndice([2, 8, 5, 6]);
+    expect(indiceOfNumbers).toEqual([1, 3]);
+  })
 
-  test('should returns wrong language for answer different to java | javascript', () => {
-    expect(getLanguage('python'))
-      .toBe('wrong language...');
-  });
+
 });
 
 
+
+/*
+Scenarios
+---------
+
+- Return array of indice of one number
+- Return array of indice of two numbers
+- Return array of indice of two numbers which sum = target
+- Return array of indice of two numbers which sum = target without using the same element twice
+
+*/ 
