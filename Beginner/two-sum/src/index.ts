@@ -1,7 +1,7 @@
 const java: string = 'JAVA';
 const javascript: string = 'JAVASCRIPT';
 
-function getFavouriteLanguage(answer: string): string {
+export function getFavouriteLanguage(answer: string): string {
     switch (answer.toUpperCase()) {
         case java.toString():
             return `Your favourite language is ${java}`;
@@ -12,4 +12,3 @@ function getFavouriteLanguage(answer: string): string {
     }
 }
 
-module.exports = getFavouriteLanguage;
