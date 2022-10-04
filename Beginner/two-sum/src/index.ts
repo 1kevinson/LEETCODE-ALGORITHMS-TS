@@ -1,6 +1,7 @@
 export class TwoSum {
 
     public getSum(array: number[], target: number): any {
+        
         return [1, 2];
     }
 
