@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1664863231460" clover="3.2.0">
-  <project timestamp="1664863231460" name="All files">
+<coverage generated="1665156960393" clover="3.2.0">
+  <project timestamp="1665156960393" name="All files">
     <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2" elements="7" coveredelements="7" complexity="0" loc="5" ncloc="5" packages="1" files="1" classes="1"/>
     <file name="index.ts" path="/Users/1kevinson/Library/Mobile Documents/com~apple~CloudDocs/Files/01 - Coding/01 - Phronesis/02 - Typescript/Vanilla/TDD-Leet code/Beginner/two-sum/src/index.ts">
       <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
-      <line num="5" count="1" type="stmt"/>
-      <line num="9" count="2" type="stmt"/>
+      <line num="4" count="1" type="stmt"/>
+      <line num="8" count="2" type="stmt"/>
+      <line num="10" count="2" type="stmt"/>
       <line num="11" count="2" type="stmt"/>
-      <line num="12" count="2" type="stmt"/>
-      <line num="14" count="2" type="stmt"/>
+      <line num="13" count="2" type="stmt"/>
     </file>
   </project>
 </coverage>

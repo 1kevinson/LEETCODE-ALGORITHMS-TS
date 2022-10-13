@@ -1,27 +1,22 @@
-import { TwoSum } from "../src/index";
+import {TwoSum} from "../src/index";
 
 let twoSum: TwoSum;
+const array: number[] = [3, 7, 4, 21, 66, 12];
 
 beforeEach(() => {
-  twoSum = new TwoSum();
+    twoSum = new TwoSum();
 })
 
 describe('Two Sum Algorithm Leetcode', () => {
-  it('should return an array of indice of one number', () => {
-    expect(twoSum.getIndice([2, 8, 5, 6])).toEqual(expect.arrayContaining([1]));
-  });
+    it('return array of indice of 1 number', () => {
+        expect(twoSum.getIndice(array, 7)).toEqual([1]);
+    });
 
-  it('should return an array of indice of two numbers', () => {
-    expect(twoSum.getIndice([2, 8, 5, 6])).toEqual([1, 3]);
-  });
-
-  it('should return an array of indice of two numbers which sum equals target', () => {
-    expect(twoSum.getSum([2, 8, 5, 6], 10)).toEqual([1, 2]);
-  });
+    it('return array of indice of 1 number such that the number = target', () => {
+        expect(twoSum.getIndice(array, 21)).toEqual([3]);
+    });
 });
 
-// From the book Mindset, sometimes is absolutely normal for something 
-// new to learn to put a lot of efforts in the beginning
 
 /*
 
@@ -42,8 +37,7 @@ Explanation: Because nums[0] + nums[1] == 9, we return [0, 1].
 Scenarios
 ---------
 - Return array of indice of one number
-- Return array of indice of two numbers
-- Return array of indice of two numbers which sum = target
+- Return array of indice of one number = target
 - Return array of indice of two numbers which sum = target without using the same element twice
 
 */ 
