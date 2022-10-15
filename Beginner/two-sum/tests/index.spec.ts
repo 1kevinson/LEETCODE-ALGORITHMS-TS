@@ -8,11 +8,11 @@ beforeEach(() => {
 })
 
 describe('Two Sum Algorithm Leetcode', () => {
-    it('return array of indice of 1 number', () => {
+    it('return array of indices of 1 number', () => {
         expect(twoSum.getIndice(array, 7)).toEqual([1]);
     });
 
-    it('return array of indice of 1 number such that the number = target', () => {
+    it('return array of indices of 1 number such that the number = target', () => {
         expect(twoSum.getIndice(array, 21)).toEqual([3]);
     });
 });
@@ -36,8 +36,8 @@ Explanation: Because nums[0] + nums[1] == 9, we return [0, 1].
 
 Scenarios
 ---------
-- Return array of indice of one number
-- Return array of indice of one number = target
-- Return array of indice of two numbers which sum = target without using the same element twice
+- Return array of indices of one number
+- Return array of indices of one number = target
+- Return array of indices of two numbers which sum = target without using the same element twice
 
 */ 
